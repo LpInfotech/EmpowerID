@@ -1,0 +1,34 @@
+
+// variable-colors
+$primary-color:#307fc1;
+$secondary-color: #282828;
+$success-color: #198754;
+$info-color: #0dcaf0;
+$warning-color: #ffc107;
+$danger-color: #dc3545;
+$light-color: #f7f8fa;
+$gray-100-color: #333333;
+$gray-200-color: #b4b4b4;
+$gray-300-color: #d0d9e2;
+$gray-400-color: #777;
+$gray-500-color: #d2d2d9;
+$gray-600-color:  #aeaeae;
+$gray-900-color: #efeff1;
+$gray-900-color: #efeff1;
+$dark-color: #000;
+$white-color: #fff;
+
+// font-family
+$rubik: "Rubik";
+$rubik-midium:"Rubik-Medium";
+
+//mixin foe media query
+@mixin max-sm{
+@media (max-width:576px) {
+    @content;
+}
+}
+
+
+
+

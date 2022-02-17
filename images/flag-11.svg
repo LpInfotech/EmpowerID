@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>812185A0-D4BA-4AFE-BD28-FC0C11D8D9AB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-16.0%" y="-16.0%" width="132.0%" height="132.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0.120192308,12.9807692 C0.120192308,19.5673077 5.48076923,24.9038462 12.0673077,24.9038462 L12.0673077,24.9038462 C18.6778846,24.9038462 24.0144231,19.5673077 24.0144231,12.9807692 L24.0144231,12.9807692 C24.0144231,6.39423077 18.6778846,1.03365385 12.0673077,1.03365385 L12.0673077,1.03365385 C5.48076923,1.03365385 0.120192308,6.39423077 0.120192308,12.9807692" id="path-2"></path>
+        <path d="M0.120192308,12.9807692 C0.120192308,19.5673077 5.48076923,24.9038462 12.0673077,24.9038462 L12.0673077,24.9038462 C18.6778846,24.9038462 24.0144231,19.5673077 24.0144231,12.9807692 L24.0144231,12.9807692 C24.0144231,6.39423077 18.6778846,1.03365385 12.0673077,1.03365385 L12.0673077,1.03365385 C5.48076923,1.03365385 0.120192308,6.39423077 0.120192308,12.9807692" id="path-4"></path>
+    </defs>
+    <g id="EID---Legacy-Login-/-Register" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Languages" transform="translate(-50.000000, -55.000000)">
+            <g id="Group-7" filter="url(#filter-1)" transform="translate(51.000000, 54.000000)">
+                <g id="Group-3">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M24.1298077,12.9399038 C24.1298077,19.5985577 18.6971154,24.9831731 12.0625,24.9831731 C5.42788462,24.9831731 -0.00480769231,19.5985577 -0.00480769231,12.9399038 C-0.00480769231,6.78605769 4.63461538,1.66586538 10.6201923,0.944711538 L13.5048077,0.944711538 C19.4903846,1.66586538 24.1298077,6.78605769 24.1298077,12.9399038" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                </g>
+                <g id="Group-6">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M19.2932692,12.9759615 C19.2932692,16.9903846 16.0480769,20.2115385 12.0576923,20.2115385 C8.06730769,20.2115385 4.82211538,16.9903846 4.82211538,12.9759615 C4.82211538,8.98557692 8.06730769,5.74038462 12.0576923,5.74038462 C16.0480769,5.74038462 19.2932692,8.98557692 19.2932692,12.9759615" id="Fill-4" fill="#BB022C" mask="url(#mask-5)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
