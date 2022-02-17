@@ -41,13 +41,16 @@
         font-size: 18px;
         color: $gray-200-color;
     }
-    .email-section{
+
+    .email-section {
         z-index: 1;
     }
-    .email-group{
+
+    .email-group {
         z-index: -1;
     }
-    .password-id-input{
+
+    .password-id-input {
         z-index: 0 !important;
     }
 
@@ -101,11 +104,68 @@
     .btn {
         font-size: 14px;
     }
+
+    .lang-icon {
+
+        /* scrollbar */
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0px 0 4px $gray-700-color;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: $gray-700-color;
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: $gray-800-color;
+        }
+
+        .dropdown-menu::after {
+            content: "  ";
+            border: 12px solid transparent;
+            position: absolute;
+            right: 99%;
+            width: 0px;
+            height: 0px;
+            top: 4%;
+            border-right-color: $white-color;
+            border-left-color: transparent;
+        }
+
+        .dropdown-menu {
+            transform: translate3d(28px, -16px, 0px);
+        }
+
+        .list-able:hover {
+            opacity: 100% !important;
+            cursor: pointer;
+        }
+    }
 }
 
 // MEDIA QUERY
 @include max-sm {
     .lang-icon {
         transform: translate(75%, -17%) !important;
+    }
+}
+
+@include max-xl {
+    .lang-icon {
+        .dropdown-menu::after {
+            z-index: -1;
+            left: 99%;
+            border-left-color: $white-color !important;
+            border-right-color: transparent !important;
+        }
     }
 }

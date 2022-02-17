@@ -29,12 +29,14 @@
               <img src="./images/logo-image.svg" class="ps-1" alt="logo-image">
               <h5 class="ps-3 mb-0 text-secondary">Login</h5>
               <span class="small text-primary ms-auto pe-2">Register here</span>
-              <a href="#"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em"
-                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32">
-                  <g fill="none" stroke="#534e52" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                    <path d="M30 12L16 24L2 12" />
+              <a href="#" data-bs-toggle="dropdown" id="dropdownMenuClickableInside"
+              data-bs-auto-close="outside" aria-expanded="false"><img src="./images/down-arrow.svg" alt="down-arrow">
                   </g></a>
-              </svg>
+                  <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                    <li><a class="dropdown-item" href="#">Menu item</a></li>
+                  </ul>
             </div>
           </div>
           <!-- /HEADER OF LOGIN-FORM -->
@@ -45,45 +47,46 @@
               <div class="mb-3 pt-3 px-sm-4 mx-sm-3 position-relative email-section">
                 <div class="bg-primary position-absolute p-2 start-100 lang-icon btn-group dropend lang-icon"><a
                     href="#" class="d-flex" data-bs-toggle="dropdown" id="dropdownMenuClickableInside"
-                    data-bs-auto-close="outside" aria-expanded="false"><img src="./images/lang-icon.svg"
+                    data-bs-auto-close="outside" aria-expanded="false"><img src="./images/lang-icon.svg" class="lang-image"
                       alt="lang-icon"></a>
-                      <i class="fas fa-caret-left fs-1 position-absolute top-0 start-100 d-none"></i>
-                      <!-- <i class="fas fa-caret-right fs-1 position-absolute top-0 start-0"></i> -->
-                  <ul class="dropdown-menu mx-3">
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/us-flag.svg"
-                        class="pe-3" alt="us-flag"><span>English</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-2.svg"
-                        class="pe-3" alt="us-flag"><span>English (Great Britain)</span><img
-                        src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-3.svg"
-                        class="pe-3" alt="us-flag"><span>Deutsch</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-4.svg"
-                        class="pe-3" alt="us-flag"><span>اللغة العربية الفصحى</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-5.svg"
-                        class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-7.svg"
-                        class="pe-3" alt="us-flag"><span>Other Language</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-6.svg"
-                        class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-8.svg"
-                        class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-9.svg"
-                        class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-10.svg"
-                        class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                    <li class="py-2 px-3 d-flex align-items-center small list-able opacity-25"><img src="./images/flag-11.svg"
-                        class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                        class="ms-auto d-none check-tick" alt="check"></li>
-                  </ul>
+                  <div class="dropdown-menu mx-4 shadow-lg">
+                    <ul class="ps-0 mb-0">
+                      <!-- <i class="fas fa-caret-left fs-1 position-absolute"></i> -->
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/us-flag.svg"
+                          class="pe-3" alt="us-flag"><span>English</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-2.svg"
+                          class="pe-3" alt="us-flag"><span>English (Great Britain)</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-3.svg"
+                          class="pe-3" alt="us-flag"><span>Deutsch</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-4.svg"
+                          class="pe-3" alt="us-flag"><span>اللغة العربية الفصحى</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-5.svg"
+                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-7.svg"
+                          class="pe-3" alt="us-flag"><span>Other Language</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-6.svg"
+                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-8.svg"
+                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-9.svg"
+                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-10.svg"
+                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-11.svg"
+                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
+                          class="ms-auto d-none check-tick" alt="check"></li>
+                    </ul>
+                  </div>
                 </div>
                 <label for="exampleFormControlInput1" class="form-label small mb-3 ps-2 lh-1 text-gray-100">User Name or
                   Email Address</label>
