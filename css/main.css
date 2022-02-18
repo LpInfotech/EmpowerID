@@ -12061,96 +12061,175 @@ textarea.form-control-lg {
   overflow: auto;
   z-index: 1000;
 }
-.login-section .login-form {
+.login-section .register-menu {
+  width: 300px;
+}
+.login-section .register-menu.show {
+  right: -14% !important;
+  top: -13% !important;
+  left: auto !important;
+  bottom: auto !important;
+}
+.login-section .register-menu::after {
+  content: " ";
+  border: 12px solid transparent;
+  position: absolute;
+  right: 3%;
+  top: -11px;
+  bottom: 100%;
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: transparent;
+  border-top-left-radius: 6px;
+  border-left: transparent;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 56px;
+  transform: rotate(314deg);
+  background: white;
+}
+.login-section .password-menu {
+  width: 270px;
+}
+.login-section .password-menu::after {
+  content: "  ";
+  position: absolute;
+  right: 2%;
+  bottom: 89%;
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: transparent;
+  border-top-left-radius: 6px;
+  border-left: transparent;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 56px;
+  transform: rotate(314deg);
+  background: white;
+}
+.login-section .password-menu.show {
+  right: -11px !important;
+  top: 33px !important;
+  left: auto !important;
+  bottom: auto !important;
+}
+
+.login-form {
   max-width: 500px;
 }
-.login-section .email-input::placeholder {
+
+.email-input::placeholder {
   font-size: 18px;
   color: #b4b4b4;
 }
-.login-section .email-section {
+
+.email-section {
   z-index: 1;
 }
-.login-section .email-group {
+
+.email-group {
   z-index: -1;
 }
-.login-section .password-id-input {
+
+.password-id-input {
   z-index: 0 !important;
 }
-.login-section .password-input::placeholder {
+
+.password-input::placeholder {
   color: #fff;
 }
-.login-section .password-id-input::placeholder {
+
+.password-id-input::placeholder {
   color: #198754;
 }
-.login-section .password-input,
-.login-section .password-id-input {
+
+.password-input-button,
+.password-id-input {
   padding: 20px 15px;
 }
-.login-section label {
+
+label {
   letter-spacing: 0.13px;
 }
-.login-section .focus-control:focus,
-.login-section .form-check-input:focus,
-.login-section .btn:focus {
+
+.focus-control:focus,
+.form-check-input:focus,
+.btn:focus {
   border-color: #307fc1 !important;
   box-shadow: none;
 }
-.login-section .password-id-input:focus {
+
+.password-id-input:focus {
   box-shadow: none;
 }
-.login-section .primary-border {
+
+.primary-border {
   border-color: #307fc1 !important;
 }
-.login-section .background-primary {
+
+.background-primary {
   background-color: #307fc1 !important;
 }
-.login-section .horizontal-line {
+
+.horizontal-line {
   width: 200px;
   height: 1px;
 }
-.login-section .form-check-input {
+
+.form-check-input {
   width: 21px;
   height: 21px;
 }
-.login-section .btn {
+
+.btn {
   font-size: 14px;
 }
-.login-section .lang-icon {
+
+.lang-icon {
   /* scrollbar */
   /* Track */
   /* Handle */
   /* Handle on hover */
 }
-.login-section .lang-icon ::-webkit-scrollbar {
+.lang-icon ::-webkit-scrollbar {
   width: 7px;
 }
-.login-section .lang-icon ::-webkit-scrollbar-track {
+.lang-icon ::-webkit-scrollbar-track {
   box-shadow: inset 0px 0 4px #d8d8d8;
   border-radius: 10px;
 }
-.login-section .lang-icon ::-webkit-scrollbar-thumb {
+.lang-icon ::-webkit-scrollbar-thumb {
   background: #d8d8d8;
   border-radius: 10px;
 }
-.login-section .lang-icon ::-webkit-scrollbar-thumb:hover {
+.lang-icon ::-webkit-scrollbar-thumb:hover {
   background: #b1b1b1;
 }
-.login-section .lang-icon .dropdown-menu::after {
+.lang-icon .dropdown-menu::after {
   content: "  ";
   border: 12px solid transparent;
   position: absolute;
-  right: 99%;
-  width: 0px;
-  height: 0px;
+  right: 96%;
   top: 4%;
-  border-right-color: #fff;
-  border-left-color: transparent;
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: transparent;
+  border-top-left-radius: 6px;
+  border-left: transparent;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 56px;
+  transform: rotate(225deg);
+  background: white;
 }
-.login-section .lang-icon .dropdown-menu {
-  transform: translate3d(28px, -16px, 0px);
+.lang-icon .dropdown-menu {
+  top: -42% !important;
 }
-.login-section .lang-icon .list-able:hover {
+
+li:hover {
   opacity: 100% !important;
   cursor: pointer;
 }
@@ -12163,7 +12242,7 @@ textarea.form-control-lg {
 @media (max-width: 1100px) {
   .lang-icon .dropdown-menu::after {
     z-index: -1;
-    left: 99%;
+    left: 100%;
     border-left-color: #fff !important;
     border-right-color: transparent !important;
   }

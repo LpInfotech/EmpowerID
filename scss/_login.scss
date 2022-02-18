@@ -24,7 +24,6 @@
         border-top-right-radius: 20px;
 
         ul {
-            // transform: translate3d(50px, 0px, 0px) !important;
             max-height: 257px;
             min-width: 270px;
             overflow: auto;
@@ -32,125 +31,198 @@
         }
     }
 
-    .login-form {
-        max-width: 500px;
+    //register-link dropdowns
+    .register-menu {
+        width: 300px;
     }
 
-    // custom placeholder
-    .email-input::placeholder {
-        font-size: 18px;
-        color: $gray-200-color;
+    .register-menu.show {
+        right: -14% !important;
+        top: -13% !important;
+        left: auto !important;
+        bottom: auto !important;
     }
 
-    .email-section {
-        z-index: 1;
+    .register-menu::after {
+        content: " ";
+        border: 12px solid transparent;
+        position: absolute;
+        right: 3%;
+        top: -11px;
+        bottom: 100%;
+        height: 20px;
+        width: 20px;
+        display: block;
+        border: 1px solid $dark-border-color;
+        border-bottom: transparent;
+        border-top-left-radius: 6px;
+        border-left: transparent;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 56px;
+        transform: rotate(314deg);
+        background: white;
     }
 
-    .email-group {
-        z-index: -1;
+    //password-menu
+    .password-menu {
+        width: 270px;
     }
 
-    .password-id-input {
-        z-index: 0 !important;
+    .password-menu::after {
+        content: "  ";
+        position: absolute;
+        right: 2%;
+        bottom: 89%;
+        height: 20px;
+        width: 20px;
+        display: block;
+        border: 1px solid $dark-border-color;
+        border-bottom: transparent;
+        border-top-left-radius: 6px;
+        border-left: transparent;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 56px;
+        transform: rotate(314deg);
+        background: white;
     }
 
-    .password-input::placeholder {
-        color: $white-color;
+    .password-menu.show {
+        right: -11px !important;
+        top: 33px !important;
+        left: auto !important;
+        bottom: auto !important;
     }
 
-    .password-id-input::placeholder {
-        color: $success-color;
+
+}
+
+.login-form {
+    max-width: 500px;
+}
+
+// custom placeholder
+.email-input::placeholder {
+    font-size: 18px;
+    color: $gray-200-color;
+}
+
+.email-section {
+    z-index: 1;
+}
+
+.email-group {
+    z-index: -1;
+}
+
+.password-id-input {
+    z-index: 0 !important;
+}
+
+.password-input::placeholder {
+    color: $white-color;
+}
+
+.password-id-input::placeholder {
+    color: $success-color;
+}
+
+.password-input-button,
+.password-id-input {
+    padding: 20px 15px;
+}
+
+label {
+    letter-spacing: 0.13px;
+}
+
+// focus control input
+.focus-control:focus,
+.form-check-input:focus,
+.btn:focus {
+    border-color: $primary-color !important;
+    box-shadow: none;
+}
+
+.password-id-input:focus {
+    box-shadow: none;
+}
+
+.primary-border {
+    border-color: $primary-color !important;
+}
+
+.background-primary {
+    background-color: $primary-color !important;
+}
+
+.horizontal-line {
+    width: 200px;
+    height: 1px;
+}
+
+.form-check-input {
+    width: 21px;
+    height: 21px;
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.lang-icon {
+
+    /* scrollbar */
+    ::-webkit-scrollbar {
+        width: 7px;
     }
 
-    .password-input,
-    .password-id-input {
-        padding: 20px 15px;
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0px 0 4px $gray-700-color;
+        border-radius: 10px;
     }
 
-    label {
-        letter-spacing: 0.13px;
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: $gray-700-color;
+        border-radius: 10px;
     }
 
-    // focus control input
-    .focus-control:focus,
-    .form-check-input:focus,
-    .btn:focus {
-        border-color: $primary-color !important;
-        box-shadow: none;
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: $gray-800-color;
     }
 
-    .password-id-input:focus {
-        box-shadow: none;
+    // language icon dropdown 
+    .dropdown-menu::after {
+        content: "  ";
+        border: 12px solid transparent;
+        position: absolute;
+        right: 96%;
+        top: 4%;
+        height: 20px;
+        width: 20px;
+        display: block;
+        border: 1px solid $dark-border-color;
+        border-bottom: transparent;
+        border-top-left-radius: 6px;
+        border-left: transparent;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 56px;
+        transform: rotate(225deg);
+        background: white;
     }
 
-    .primary-border {
-        border-color: $primary-color !important;
-    }
-
-    .background-primary {
-        background-color: $primary-color !important;
-    }
-
-    .horizontal-line {
-        width: 200px;
-        height: 1px;
-    }
-
-    .form-check-input {
-        width: 21px;
-        height: 21px;
-    }
-
-    .btn {
-        font-size: 14px;
-    }
-
-    .lang-icon {
-
-        /* scrollbar */
-        ::-webkit-scrollbar {
-            width: 7px;
-        }
-
-        /* Track */
-        ::-webkit-scrollbar-track {
-            box-shadow: inset 0px 0 4px $gray-700-color;
-            border-radius: 10px;
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: $gray-700-color;
-            border-radius: 10px;
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: $gray-800-color;
-        }
-
-        .dropdown-menu::after {
-            content: "  ";
-            border: 12px solid transparent;
-            position: absolute;
-            right: 99%;
-            width: 0px;
-            height: 0px;
-            top: 4%;
-            border-right-color: $white-color;
-            border-left-color: transparent;
-        }
-
-        .dropdown-menu {
-            transform: translate3d(28px, -16px, 0px);
-        }
-
-        .list-able:hover {
-            opacity: 100% !important;
-            cursor: pointer;
-        }
+    .dropdown-menu {
+        top:-42% !important;
     }
 }
+
+li:hover {
+    opacity: 100% !important;
+    cursor: pointer;
+}
+
 
 // MEDIA QUERY
 @include max-sm {
@@ -163,7 +235,7 @@
     .lang-icon {
         .dropdown-menu::after {
             z-index: -1;
-            left: 99%;
+            left: 100%;
             border-left-color: $white-color !important;
             border-right-color: transparent !important;
         }

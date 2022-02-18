@@ -18,7 +18,7 @@
 <body>
   <!-- START LOGIN-FORM SECTION -->
   <section class="login-section">
-    <div class="conatiner top-padding">
+    <div class="container top-padding">
       <!-- LOGIN FORM -->
       <div class="login-form mx-sm-auto mx-5 bg-white rounded border">
         <!-- ROW -->
@@ -27,16 +27,27 @@
           <div class="col-12">
             <div class="d-flex p-4 align-items-center border-bottom">
               <img src="./images/logo-image.svg" class="ps-1" alt="logo-image">
-              <h5 class="ps-3 mb-0 text-secondary">Login</h5>
-              <span class="small text-primary ms-auto pe-2">Register here</span>
-              <a href="#" data-bs-toggle="dropdown" id="dropdownMenuClickableInside"
-              data-bs-auto-close="outside" aria-expanded="false"><img src="./images/down-arrow.svg" alt="down-arrow">
-                  </g></a>
-                  <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-                    <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    <li><a class="dropdown-item" href="#">Menu item</a></li>
-                  </ul>
+              <h5 class="ps-3 mb-0 me-auto text-secondary">Login</h5>
+              <!-- register link -->
+              <div class="position-relative">
+                <a href="#" class="text-decoration-none register-link" type="button" data-bs-toggle="dropdown"
+                  data-bs-auto-close="outside" aria-expanded="false">
+                  <span class="small text-primary pe-2">Register here</span><img src="./images/down-arrow.svg"
+                    alt="down-arrow">
+                </a>
+                <ul class="dropdown-menu register-menu mt-3 shadow-lg">
+                  <li class="py-2 px-3 d-flex align-items-center small register-list"><img src="./images/regi-img-1.svg"
+                      class="pe-3" alt="us-flag"><span>Consumer Self-Register</span><img src="./images/check-tick.svg"
+                      class="ms-auto d-none check-tick" alt="check"></li>
+                  <li class="py-2 px-3 d-flex align-items-center small register-list"><img src="./images/regi-img-2.svg"
+                      class="pe-3" alt="us-flag"><span>Partner Self-Register</span><img src="./images/check-tick.svg"
+                      class="ms-auto d-none check-tick" alt="check"></li>
+                  <li class="py-2 px-3 d-flex align-items-center small register-list"><img src="./images/regi-img-3.svg"
+                      class="pe-3" alt="us-flag"><span>Supplier Company
+                      Registration</span><img src="./images/check-tick.svg" class="ms-auto d-none check-tick"
+                      alt="check"></li>
+                </ul>
+              </div>
             </div>
           </div>
           <!-- /HEADER OF LOGIN-FORM -->
@@ -47,44 +58,44 @@
               <div class="mb-3 pt-3 px-sm-4 mx-sm-3 position-relative email-section">
                 <div class="bg-primary position-absolute p-2 start-100 lang-icon btn-group dropend lang-icon"><a
                     href="#" class="d-flex" data-bs-toggle="dropdown" id="dropdownMenuClickableInside"
-                    data-bs-auto-close="outside" aria-expanded="false"><img src="./images/lang-icon.svg" class="lang-image"
-                      alt="lang-icon"></a>
+                    data-bs-auto-close="outside" aria-expanded="false"><img src="./images/lang-icon.svg"
+                      class="lang-image" alt="lang-icon"></a>
+                  <!-- language icon link -->
                   <div class="dropdown-menu mx-4 shadow-lg">
                     <ul class="ps-0 mb-0">
-                      <!-- <i class="fas fa-caret-left fs-1 position-absolute"></i> -->
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/us-flag.svg"
-                          class="pe-3" alt="us-flag"><span>English</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-2.svg"
-                          class="pe-3" alt="us-flag"><span>English (Great Britain)</span><img
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/us-flag.svg" class="pe-3" alt="us-flag"><span>English</span><img
                           src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-3.svg"
-                          class="pe-3" alt="us-flag"><span>Deutsch</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-4.svg"
-                          class="pe-3" alt="us-flag"><span>اللغة العربية الفصحى</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-5.svg"
-                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-7.svg"
-                          class="pe-3" alt="us-flag"><span>Other Language</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-6.svg"
-                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-8.svg"
-                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-9.svg"
-                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-10.svg"
-                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
-                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img src="./images/flag-11.svg"
-                          class="pe-3" alt="us-flag"><span>Català</span><img src="./images/check-tick.svg"
-                          class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-2.svg" class="pe-3" alt="us-flag"><span>English (Great Britain)</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-3.svg" class="pe-3" alt="us-flag"><span>Deutsch</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-4.svg" class="pe-3" alt="us-flag"><span>اللغة العربية الفصحى</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-5.svg" class="pe-3" alt="us-flag"><span>Català</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-7.svg" class="pe-3" alt="us-flag"><span>Other Language</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-6.svg" class="pe-3" alt="us-flag"><span>Català</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-8.svg" class="pe-3" alt="us-flag"><span>Català</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-9.svg" class="pe-3" alt="us-flag"><span>Català</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-10.svg" class="pe-3" alt="us-flag"><span>Català</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                      <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
+                          src="./images/flag-11.svg" class="pe-3" alt="us-flag"><span>Català</span><img
+                          src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
                     </ul>
                   </div>
                 </div>
@@ -101,31 +112,46 @@
               <!-- PASSWORD INPUT -->
               <div class="mb-3 px-sm-4 mx-sm-3">
                 <div class="row">
-                  <div class="col-sm-5 pe-sm-1 mb-3 mb-sm-0"><input type="password"
-                      class="form-control focus-control bg-gray-300 text-white password-input" id="inputPassword2"
-                      placeholder="Enter Password"></div>
-                  <div class="col-sm-7 ps-sm-1">
+                  <div class="col-sm-5 pe-sm-1 mb-3 mb-sm-0">
+                    <a href="./passwordpage.html" class="btn bg-gray-300 text-white password-input-button w-100 border-2">Enter
+                      Password</a>
+                  </div>
+                  <div class="col-sm-7 ps-sm-1 pe-0">
                     <div class="input-group mb-3">
                       <span class="input-group-text bg-white basic-addon pe-1 border-end-0 border-success"><img
                           src="./images/touch-id-green.svg" class="text-success" alt="password-icon"></span>
                       <input type="password"
-                        class="form-control password-id-input text-success border-success border-start-0 ps-1"
+                        class="form-control password-id-input text-success border-success rounded-end border-start-0 ps-1"
                         id="inputPassword2" placeholder="Passwordless login">
+                      <!-- passwordId link -->
+                      <div class="position-relative ps-1 d-flex align-items-center">
+                        <a href="#" class="text-decoration-none register-link" type="button" data-bs-toggle="dropdown"
+                          data-bs-auto-close="outside" aria-expanded="false"><img src="./images/down-arrow.svg"
+                            alt="down-arrow">
+                        </a>
+                        <ul class="dropdown-menu password-menu shadow-lg">
+                          <li class="py-2 px-3 d-flex align-items-center small register-list"><img
+                              src="./images/password-1.svg" class="pe-3" alt="us-flag"><span>FIDO</span><img
+                              src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                          <li class="py-2 px-3 d-flex align-items-center small register-list"><img
+                              src="./images/password-2.svg" class="pe-3" alt="us-flag"><span>EmpowerID</span><img
+                              src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <!-- /PASSWORD INPUT -->
+                <!-- FORGOT PASSWORD -->
+                <p class="px-sm-4 mx-sm-3 pt-2 small"><span class="text-gray-400">Forgot your:</span> <a
+                    href="#">Password</a><span class="text-style-2 text-gray-400">,</span> <a href="#"> User Name </a>
+                  <span class="text-style-3 text-gray-400">or</span> <a href="#">Token</a></p>
               </div>
-              <!-- /PASSWORD INPUT -->
-              <!-- FORGOT PASSWORD -->
-              <p class="px-sm-4 mx-sm-3 pt-2 small"><span class="text-gray-400">Forgot your:</span> <a
-                  href="#">Password</a><span class="text-style-2 text-gray-400">,</span> <a href="#"> User Name </a>
-                <span class="text-style-3 text-gray-400">or</span> <a href="#">Token</a></p>
               <div class="d-flex pt-3 pb-4">
                 <span class="horizontal-line bg-gray-500 align-self-center"></span>
                 <span class="px-3 text-gray-500">OR</span>
                 <span class="horizontal-line bg-gray-500 align-self-center"></span>
               </div>
-              <!-- /FORGOT PASSWORD -->
               <!-- LOGIN WITH OTHER ACCOUNT -->
               <p class="rubik-midium text-gray-100">Login using one of your other accounts</p>
               <div class="form-check d-flex align-items-center">
@@ -152,21 +178,19 @@
                     LinkedIn</button>
                 </div>
               </div>
-              <!-- /BUTTON GROUP -->
-            </div>
-            <div class="col-12">
-              <div class="text-primary bg-white py-3 text-center">
-                <img src="./images/chat-icon.svg" class="pe-3" alt="chat-logo">
-                <span class="ps-1">Chat Boot Help
-                </span>
+              <div class="col-12">
+                <div class="text-primary bg-white py-3 text-center">
+                  <img src="./images/chat-icon.svg" class="pe-3" alt="chat-logo">
+                  <span class="ps-1">Chat Boot Help
+                  </span>
+                </div>
               </div>
             </div>
+            <!-- /BODY OF LOGIN-FORM -->
           </div>
-          <!-- /BODY OF LOGIN-FORM -->
         </div>
+        <!-- /LOGIN FORM -->
       </div>
-      <!-- /LOGIN FORM -->
-    </div>
   </section>
   <!-- /END LOGIN-FORM SECTION -->
   <!-- jquery file -->
