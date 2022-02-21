@@ -2,9 +2,18 @@
 $theme-colors: ("primary": #307fc1,
     "secondary": #282828,
     "success": #00a17d,
+    "green-500": #01ae8f,
     "info": #0dcaf0,
     "warning": #ffc107,
+    "yellow-500": #d97900,
+    "blue-100": #eef0f4,
+    "blue-200": #5d6870,
+    "blue-300": #dfe1e5,
+    "blue-400": #e8e8ec,
+    "blue-500": #9b9fa7,
     "danger": #dc3545,
+    "red-500": #f82a19,
+    "purple-400":#7979bf,
     "light": #f7f8fa,
     "gray-100": #333333,
     "gray-200": #b4b4b4,
@@ -20,7 +29,7 @@ $theme-colors: ("primary": #307fc1,
  
 // BASE FONT FAMILY
 $font-family-base:Rubik;
-//START FONT FAMILY RUBIK
+//START FONT FAMILY 
 @font-face {
     font-family:"Rubik";
     src: url(../font-family/static/Rubik-Regular.ttf);
@@ -30,7 +39,12 @@ $font-family-base:Rubik;
     font-family: "Rubik-Medium";
     src: url(../font-family/static/Rubik-Medium.ttf);
 }
-// END FONT FAMILY RUBIK
+// font-family Raleway-semibold
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url(../font-family/Raleway/static/Raleway-SemiBold.ttf);
+}
+// END FONT FAMILY
 
 
 

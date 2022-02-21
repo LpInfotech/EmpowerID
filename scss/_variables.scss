@@ -3,9 +3,17 @@
 $primary-color:#307fc1;
 $secondary-color: #282828;
 $success-color: #198754;
+$green-500-color: #01ae8f;
 $info-color: #0dcaf0;
 $warning-color: #ffc107;
+$yellow-500-color: #d97900;
+$blue-100-color: #eef0f4;
+$blue-200-color: #5d6870;
+$blue-300-color: #dfe1e5;
+$blue-400-color: #e8e8ec;
 $danger-color: #dc3545;
+$red-500-color: #f82a19;
+$purple-400-color:#7979bf;
 $light-color: #f7f8fa;
 $gray-100-color: #333333;
 $gray-200-color: #b4b4b4;
@@ -23,18 +31,8 @@ $dark-border-color:rgba(0, 0, 0, 0.15);
 // font-family
 $rubik: "Rubik";
 $rubik-midium:"Rubik-Medium";
+$Raleway-SemiBold:"Raleway-SemiBold";
 
-//mixin foe media query
-@mixin max-sm{
-@media (max-width:576px) {
-    @content;
-}
-}
-@mixin max-xl{
-@media (max-width:1100px) {
-    @content;
-}
-}
 
 
 

@@ -18,11 +18,11 @@
 <body>
   <!-- START LOGIN-FORM SECTION -->
   <section class="login-section">
-    <div class="container top-padding">
+    <div class="container top-padding px-0">
       <!-- LOGIN FORM -->
-      <div class="login-form mx-sm-auto mx-5 bg-white rounded border">
+      <div class="login-form mx-auto bg-white border">
         <!-- ROW -->
-        <div class="row">
+        <div class="row g-0">
           <!-- HEADER OF LOGIN-FORM -->
           <div class="col-12">
             <div class="d-flex p-4 align-items-center border-bottom">
@@ -56,10 +56,10 @@
             <div class="bg-light px-4 pt-4 border-bottom">
               <!-- EMAIL INPUT -->
               <div class="mb-3 pt-3 px-sm-4 mx-sm-3 position-relative email-section">
-                <div class="bg-primary position-absolute p-2 start-100 lang-icon btn-group dropend lang-icon"><a
+                 <div class="bg-primary position-absolute p-2 lang-icon btn-group dropend lang-icon"><a
                     href="#" class="d-flex" data-bs-toggle="dropdown" id="dropdownMenuClickableInside"
                     data-bs-auto-close="outside" aria-expanded="false"><img src="./images/lang-icon.svg"
-                      class="lang-image" alt="lang-icon"></a>
+                      class="lang-image" alt="lang-icon"></a> 
                   <!-- language icon link -->
                   <div class="dropdown-menu mx-4 shadow-lg">
                     <ul class="ps-0 mb-0">
@@ -97,8 +97,8 @@
                           src="./images/flag-11.svg" class="pe-3" alt="us-flag"><span>Català</span><img
                           src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
                     </ul>
-                  </div>
-                </div>
+                  </div> 
+              </div>
                 <label for="exampleFormControlInput1" class="form-label small mb-3 ps-2 lh-1 text-gray-100">User Name or
                   Email Address</label>
                 <div class="input-group email-group mb-3">
@@ -112,11 +112,11 @@
               <!-- PASSWORD INPUT -->
               <div class="mb-3 px-sm-4 mx-sm-3">
                 <div class="row">
-                  <div class="col-sm-5 pe-sm-1 mb-3 mb-sm-0">
-                    <a href="./passwordpage.html" class="btn bg-gray-300 text-white password-input-button w-100 border-2">Enter
+                  <div class="col-5 pe-1 mb-3 mb-sm-0">
+                    <a href="./passwordpage.html" class="btn px-0 bg-gray-300 text-white password-input-button w-100 border-2">Enter
                       Password</a>
                   </div>
-                  <div class="col-sm-7 ps-sm-1 pe-0">
+                  <div class="col-7 ps-1 pe-0">
                     <div class="input-group mb-3">
                       <span class="input-group-text bg-white basic-addon pe-1 border-end-0 border-success"><img
                           src="./images/touch-id-green.svg" class="text-success" alt="password-icon"></span>
@@ -144,7 +144,7 @@
                 <!-- /PASSWORD INPUT -->
                 <!-- FORGOT PASSWORD -->
                 <p class="px-sm-4 mx-sm-3 pt-2 small"><span class="text-gray-400">Forgot your:</span> <a
-                    href="#">Password</a><span class="text-style-2 text-gray-400">,</span> <a href="#"> User Name </a>
+                    href="#">Password</a><span class="text-style-2 text-gray-400">,</span> <a href="./login-as.html"> User Name </a>
                   <span class="text-style-3 text-gray-400">or</span> <a href="#">Token</a></p>
               </div>
               <div class="d-flex pt-3 pb-4">
@@ -163,31 +163,36 @@
               <!-- BUTTON GROUP -->
               <div class="row py-4">
                 <div class="col-12 d-sm-flex">
-                  <button class="btn bg-white border-gray-600 px-3 py-2 me-3 mb-3 d-flex align-items-center"><img
+                  <button class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-flex align-items-center"><img
                       src="./images/gmail-logo.svg" class="pe-sm-3 pe-1" alt="gmail-logo"> Login with Google</button>
-                  <button class="btn bg-white border-gray-600 px-3 py-2 mb-3 d-flex align-items-center"><img
+                  <button class="btn bg-white border-gray-600 px-3 py-2 mb-3 mx-sm-0 mx-auto d-flex align-items-center"><img
                       src="./images/facebook-logo.svg" class="pe-sm-3 pe-1" alt="facebook-logo"> Login with
                     Facebook</button>
                 </div>
                 <div class="col-12 d-sm-flex">
-                  <button class="btn bg-white border-gray-600 px-3 py-2 me-3 mb-3 d-flex align-items-center"><img
+                  <button class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-sm-flex d-none align-items-center"><img
                       src="./images/microsoft-logo.svg" class="pe-sm-3 pe-1" alt="window-logo"> Login with
                     Windows</button>
-                  <button class="btn bg-white border-gray-600 px-3 py-2 mb-3 d-flex align-items-center"><img
+                  <button class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-sm-none d-flex align-items-center"><img
+                      src="./images/microsoft-logo.svg" class="pe-sm-3 pe-1" alt="window-logo"> Login with
+                    Windows Authentication</button>
+                  <button class="btn bg-white border-gray-600 px-3 py-2 mx-sm-0 mx-auto mb-3 d-sm-flex d-none align-items-center"><img
                       src="./images/linked-logo.svg" class="pe-sm-3 pe-1" alt="linked-logo"> Login with
                     LinkedIn</button>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="text-primary bg-white py-3 text-center">
-                  <img src="./images/chat-icon.svg" class="pe-3" alt="chat-logo">
-                  <span class="ps-1">Chat Boot Help
-                  </span>
                 </div>
               </div>
             </div>
             <!-- /BODY OF LOGIN-FORM -->
           </div>
+          <!-- FOOTER -->
+          <div class="col-12">
+            <div class="text-primary bg-white py-3 text-center">
+              <img src="./images/chat-icon.svg" class="pe-3" alt="chat-logo">
+              <span class="ps-1">Chat Boot Help
+              </span>
+            </div>
+          </div>
+            <!-- /FOOTER -->
         </div>
         <!-- /LOGIN FORM -->
       </div>
