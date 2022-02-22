@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7A9B3537-4C4F-45F6-AB13-424A6908B0EA</title>
+    <g id="EID---Legacy-Login-/-Register" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="login-form---Passwordless---Step-2" transform="translate(-923.000000, -516.000000)" stroke="#D2D2D9">
+            <g id="Group" transform="translate(589.000000, 16.000000)">
+                <g id="Selectors" transform="translate(30.000000, 173.000000)">
+                    <g id="device-reg-copy-2" transform="translate(225.000000, 308.000000)">
+                        <g id="yubico" transform="translate(80.000000, 20.000000)">
+                            <polygon id="Fill-1" fill="#F1F3F5" points="28.0091 27.7676 33.1491 13.2886 40.5861 13.2886 28.0511 43.9106 20.1961 43.9106 23.7921 35.5216 15.0101 13.3116 22.6001 13.3116"></polygon>
+                            <path d="M27.7997,0.7085 C42.7617,0.7085 54.8907,12.7485 54.8907,27.5995 C54.8907,42.4515 42.7617,54.4905 27.7997,54.4905 C12.8377,54.4905 0.7087,42.4515 0.7087,27.5995 C0.7087,12.7485 12.8377,0.7085 27.7997,0.7085 Z" id="Stroke-2" stroke-width="1.5"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

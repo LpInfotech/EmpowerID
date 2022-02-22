@@ -1,4 +1,4 @@
-//============================login.scss file===============================
+//============================start login.html page scss code=======================
 //login-section
 .rubik-midium {
     font-family: $rubik-midium;
@@ -215,9 +215,9 @@ li:hover {
     opacity: 100% !important;
     cursor: pointer;
 }
-//============================End login.html page=======================
+//============================End login.html page scss code=======================
 
-//============================ Start login-as.html page==================
+//============================ Start login-as.html page scss code==================
 // login-as section 
 .login-as-section {
    .bottom-card-line{
@@ -225,12 +225,10 @@ li:hover {
    }
     .vertical-line{
         width: 1px;
-        // height: 804px;
         border: solid 1px $blue-300-color;
     }
     // right-side cards
     .login-card-right{
-        // border-bottom: 3px solid $purple-400-color;
         max-width: 404px;
 
         .card-id-image{
@@ -241,8 +239,6 @@ li:hover {
     }
     // left-side cards
     .login-card-left{
-    //    border-bottom: 3px solid $purple-400-color;
-        // top: 10%;
         max-width: 404px;
         .card-id-image{
             width:122px;
@@ -254,7 +250,15 @@ li:hover {
         }
     }
 }
-//============================ End login-as.html page====================
+//============================ End login-as.html page scss code====================
+
+//============================ start passwordless-authmethod.html page scss code==================
+.passwordless-authmethod-body{
+.card{
+    max-width:16rem;
+}
+}
+//============================ End passwordless-authmethod.html page scss code====================
 
 //=========================MEDIA QUERY=================================
 @media (max-width:576px) {
