@@ -13272,6 +13272,18 @@ li:hover {
 .passwordless-authmethod-body .card {
   max-width: 16rem;
 }
+.passwordless-authmethod-body .card-effect {
+  border-color: #307fc1 !important;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.passwordless-authmethod-body .form-check-input {
+  width: 19px;
+  height: 19px;
+}
+.passwordless-authmethod-body .font-10 {
+  font-size: 10px;
+}
 
 @media (max-width: 576px) {
   .lang-icon {

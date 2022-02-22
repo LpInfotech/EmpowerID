@@ -27,7 +27,7 @@ $(function () {
             $(this).children(".check-tick").toggleClass("d-none");
             $(this).siblings().children(".check-tick").addClass("d-none");
         }
-    })
+    });
     // =============end login.html page jquery=============
 
     // ============= login-as.html page jquery=============
@@ -47,6 +47,14 @@ $(function () {
             $(this).hide();
 
         }
-    })
+    });
     // ============= login-as.html page jquery=============
+    // ============= Start passwordless-authmethod.html page jquery=============
+    $(".card").on({
+click: function () {
+     $(this).parents(".passwordless-authmethod-body").children().find(".card").removeClass("card-effect");
+     $(this).addClass("card-effect");
+}
+    });
+    // ============= End passwordless-authmethod.html pagee jquery=============
 });

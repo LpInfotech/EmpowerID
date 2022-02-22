@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>773D2712-E699-456B-A8FD-BE1E756EF589</title>
+    <g id="EID---Legacy-Login-/-Register" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="login-form---Passwordless---Device-Registration---Step-1" transform="translate(-548.000000, -424.000000)" fill="#F7F8FA" stroke="#CFD1D4" stroke-width="0.625">
+            <g id="SMS-01" transform="translate(523.000000, 313.000000)">
+                <g id="EID/Mobile-app/radio-button-off" transform="translate(25.000000, 111.000000)">
+                    <path d="M9.71659919,0.3125 C12.3129142,0.3125 14.6639287,1.36538465 16.3658712,3.06732714 C18.0678137,4.76926964 19.1206984,7.12028414 19.1206984,9.71659919 C19.1206984,12.3129142 18.0678137,14.6639287 16.3658712,16.3658712 C14.6639287,18.0678137 12.3129142,19.1206984 9.71659919,19.1206984 C7.11969809,19.1206984 4.76883572,18.0679871 3.06711785,16.3662693 C1.36514163,14.664293 0.3125,12.3131118 0.3125,9.71659919 C0.3125,7.12008657 1.36514163,4.76890535 3.06711785,3.06692912 C4.76883572,1.36521126 7.11969809,0.3125 9.71659919,0.3125 Z" id="radio-01"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

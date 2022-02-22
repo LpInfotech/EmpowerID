@@ -257,8 +257,24 @@ li:hover {
 .card{
     max-width:16rem;
 }
+.card-effect{
+    border-color: $primary-color !important;
+    box-shadow: 0 10px 10px 0 $dark-border-color;
+}
 }
 //============================ End passwordless-authmethod.html page scss code====================
+
+//============================ start password-verificationcod.html page scss code==================
+.passwordless-authmethod-body{
+    .form-check-input {
+        width: 19px;
+        height: 19px;
+    }
+    .font-10{
+        font-size:10px;
+    }
+}
+//============================ End password-verificationcod.html page scss code====================
 
 //=========================MEDIA QUERY=================================
 @media (max-width:576px) {
