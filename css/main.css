@@ -13072,6 +13072,9 @@ textarea.form-control-lg {
 .login-section .register-menu {
   width: 300px;
 }
+.login-section .register-menu li:hover .check-tick {
+  display: block !important;
+}
 .login-section .register-menu.show {
   right: -14% !important;
   top: -13% !important;
@@ -13099,6 +13102,9 @@ textarea.form-control-lg {
 }
 .login-section .password-menu {
   width: 270px;
+}
+.login-section .password-menu li:hover .check-tick {
+  display: block !important;
 }
 .login-section .password-menu::after {
   content: "  ";
@@ -13141,16 +13147,8 @@ textarea.form-control-lg {
   z-index: -1;
 }
 
-.password-id-input {
-  z-index: 0 !important;
-}
-
-.password-input::placeholder {
-  color: #fff;
-}
-
-.password-id-input::placeholder {
-  color: #198754;
+.password-id-input:focus {
+  border-color: #198754 !important;
 }
 
 .password-input-button,
@@ -13165,7 +13163,7 @@ label {
 .focus-control:focus,
 .form-check-input:focus,
 .btn:focus {
-  border-color: #307fc1 !important;
+  border-color: #307fc1;
   box-shadow: none;
 }
 
@@ -13242,6 +13240,12 @@ li:hover {
   cursor: pointer;
 }
 
+.login-as-section ::-webkit-scrollbar {
+  width: 10px;
+}
+.login-as-section .login-as-right-body {
+  max-height: 520px;
+}
 .login-as-section .bottom-card-line {
   height: 3px;
 }

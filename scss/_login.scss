@@ -27,6 +27,9 @@
     //register-link dropdowns
     .register-menu {
         width: 300px;
+        li:hover .check-tick{
+            display:block !important;
+        }
     }
 
     .register-menu.show {
@@ -59,6 +62,9 @@
     //password-menu
     .password-menu {
         width: 270px;
+        li:hover .check-tick{
+            display:block !important;
+        }
     }
 
     .password-menu::after {
@@ -107,16 +113,16 @@
     z-index: -1;
 }
 
-.password-id-input {
-    z-index: 0 !important;
-}
+// .password-id-input {
+//     z-index: 0 !important;
+// }
 
-.password-input::placeholder {
-    color: $white-color;
-}
+// .password-input::placeholder {
+//     color: $white-color;
+// }
 
-.password-id-input::placeholder {
-    color: $success-color;
+.password-id-input:focus {
+    border-color: $success-color !important;
 }
 
 .password-input-button,
@@ -132,7 +138,7 @@ label {
 .focus-control:focus,
 .form-check-input:focus,
 .btn:focus {
-    border-color: $primary-color !important;
+    border-color: $primary-color;
     box-shadow: none;
 }
 
@@ -220,6 +226,13 @@ li:hover {
 //============================ Start login-as.html page scss code==================
 // login-as section 
 .login-as-section {
+    ::-webkit-scrollbar{
+        width:10px;
+    }
+    .login-as-right-body{
+        max-height: 520px;
+        // width:500px;
+    }
    .bottom-card-line{
        height: 3px;
    }
