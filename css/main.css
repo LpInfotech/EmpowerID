@@ -54,6 +54,7 @@
   --bs-blue-500: #9b9fa7;
   --bs-blue-600: #848992;
   --bs-danger: #dc3545;
+  --bs-red-400: #d0021b;
   --bs-red-500: #f82a19;
   --bs-purple-400: #7979bf;
   --bs-light: #f7f8fa;
@@ -81,6 +82,7 @@
   --bs-blue-500-rgb: 155, 159, 167;
   --bs-blue-600-rgb: 132, 137, 146;
   --bs-danger-rgb: 220, 53, 69;
+  --bs-red-400-rgb: 208, 2, 27;
   --bs-red-500-rgb: 248, 42, 25;
   --bs-purple-400-rgb: 121, 121, 191;
   --bs-light-rgb: 247, 248, 250;
@@ -3396,6 +3398,36 @@ textarea.form-control-lg {
   border-color: #dc3545;
 }
 
+.btn-red-400 {
+  color: #fff;
+  background-color: #d0021b;
+  border-color: #d0021b;
+}
+.btn-red-400:hover {
+  color: #fff;
+  background-color: #b10217;
+  border-color: #a60216;
+}
+.btn-check:focus + .btn-red-400, .btn-red-400:focus {
+  color: #fff;
+  background-color: #b10217;
+  border-color: #a60216;
+  box-shadow: 0 0 0 0.25rem rgba(215, 40, 61, 0.5);
+}
+.btn-check:checked + .btn-red-400, .btn-check:active + .btn-red-400, .btn-red-400:active, .btn-red-400.active, .show > .btn-red-400.dropdown-toggle {
+  color: #fff;
+  background-color: #a60216;
+  border-color: #9c0214;
+}
+.btn-check:checked + .btn-red-400:focus, .btn-check:active + .btn-red-400:focus, .btn-red-400:active:focus, .btn-red-400.active:focus, .show > .btn-red-400.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(215, 40, 61, 0.5);
+}
+.btn-red-400:disabled, .btn-red-400.disabled {
+  color: #fff;
+  background-color: #d0021b;
+  border-color: #d0021b;
+}
+
 .btn-red-500 {
   color: #000;
   background-color: #f82a19;
@@ -4133,6 +4165,31 @@ textarea.form-control-lg {
 }
 .btn-outline-danger:disabled, .btn-outline-danger.disabled {
   color: #dc3545;
+  background-color: transparent;
+}
+
+.btn-outline-red-400 {
+  color: #d0021b;
+  border-color: #d0021b;
+}
+.btn-outline-red-400:hover {
+  color: #fff;
+  background-color: #d0021b;
+  border-color: #d0021b;
+}
+.btn-check:focus + .btn-outline-red-400, .btn-outline-red-400:focus {
+  box-shadow: 0 0 0 0.25rem rgba(208, 2, 27, 0.5);
+}
+.btn-check:checked + .btn-outline-red-400, .btn-check:active + .btn-outline-red-400, .btn-outline-red-400:active, .btn-outline-red-400.active, .btn-outline-red-400.dropdown-toggle.show {
+  color: #fff;
+  background-color: #d0021b;
+  border-color: #d0021b;
+}
+.btn-check:checked + .btn-outline-red-400:focus, .btn-check:active + .btn-outline-red-400:focus, .btn-outline-red-400:active:focus, .btn-outline-red-400.active:focus, .btn-outline-red-400.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(208, 2, 27, 0.5);
+}
+.btn-outline-red-400:disabled, .btn-outline-red-400.disabled {
+  color: #d0021b;
   background-color: transparent;
 }
 
@@ -6050,6 +6107,15 @@ textarea.form-control-lg {
   color: #6a1a21;
 }
 
+.alert-red-400 {
+  color: #7d0110;
+  background-color: #f6ccd1;
+  border-color: #f1b3bb;
+}
+.alert-red-400 .alert-link {
+  color: #64010d;
+}
+
 .alert-red-500 {
   color: #95190f;
   background-color: #fed4d1;
@@ -6628,6 +6694,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #842029;
   border-color: #842029;
+}
+
+.list-group-item-red-400 {
+  color: #7d0110;
+  background-color: #f6ccd1;
+}
+.list-group-item-red-400.list-group-item-action:hover, .list-group-item-red-400.list-group-item-action:focus {
+  color: #7d0110;
+  background-color: #ddb8bc;
+}
+.list-group-item-red-400.list-group-item-action.active {
+  color: #fff;
+  background-color: #7d0110;
+  border-color: #7d0110;
 }
 
 .list-group-item-red-500 {
@@ -7909,6 +7989,13 @@ textarea.form-control-lg {
   color: #b02a37;
 }
 
+.link-red-400 {
+  color: #d0021b;
+}
+.link-red-400:hover, .link-red-400:focus {
+  color: #a60216;
+}
+
 .link-red-500 {
   color: #f82a19;
 }
@@ -8444,6 +8531,10 @@ textarea.form-control-lg {
 
 .border-danger {
   border-color: #dc3545 !important;
+}
+
+.border-red-400 {
+  border-color: #d0021b !important;
 }
 
 .border-red-500 {
@@ -9365,6 +9456,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-red-400 {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-red-400-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-red-500 {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-red-500-rgb), var(--bs-text-opacity)) !important;
@@ -9549,6 +9645,11 @@ textarea.form-control-lg {
 .bg-danger {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-red-400 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-red-400-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-red-500 {
@@ -13140,7 +13241,7 @@ textarea.form-control-lg {
 }
 
 .email-section {
-  z-index: 1;
+  z-index: 10;
 }
 
 .email-group {
@@ -13163,7 +13264,7 @@ label {
 .focus-control:focus,
 .form-check-input:focus,
 .btn:focus {
-  border-color: #307fc1;
+  border-color: #307fc1 !important;
   box-shadow: none;
 }
 
@@ -13198,6 +13299,7 @@ label {
   /* Track */
   /* Handle */
   /* Handle on hover */
+  z-index: 10000;
 }
 .lang-icon ::-webkit-scrollbar {
   width: 7px;
@@ -13240,11 +13342,11 @@ li:hover {
   cursor: pointer;
 }
 
-.login-as-section ::-webkit-scrollbar {
-  width: 10px;
-}
 .login-as-section .login-as-right-body {
   max-height: 520px;
+}
+.login-as-section .login-as-right-body::-webkit-scrollbar {
+  display: none;
 }
 .login-as-section .bottom-card-line {
   height: 3px;
@@ -13289,6 +13391,30 @@ li:hover {
   font-size: 10px;
 }
 
+.toggle-button:hover, .toggle-button:focus, .toggle-button:active {
+  background-color: #307fc1 !important;
+  border-color: #307fc1 !important;
+}
+
+.toggle-on-button:hover {
+  border-color: #307fc1 !important;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.progress {
+  height: 10px;
+}
+.progress .progress-bar {
+  background-image: linear-gradient(to right, red, yellow) !important;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
 @media (max-width: 576px) {
   .lang-icon {
     transform: translate(75%, -17%) !important;
@@ -13306,7 +13432,7 @@ li:hover {
     background-image: url(../images/background-image.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    min-height: 950px;
     background-size: cover;
   }
 

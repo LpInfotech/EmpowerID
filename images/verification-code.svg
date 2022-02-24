@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>432E79F9-6892-47BB-8354-C0B5E6B0B4A3</title>
+    <g id="EID---Legacy-Login-/-Register" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="login-form---Passwordless---Device-Registration---Step-2" transform="translate(-539.000000, -378.000000)" stroke="#D2D2D2" stroke-width="1.2">
+            <g id="forms/text-field-active-advanced-copy" transform="translate(523.000000, 360.000000)">
+                <g id="code" transform="translate(17.093023, 19.000000)">
+                    <path d="M10.75,4.75 C10.8880712,4.75 11,4.86192881 11,5 C11,5.13807119 10.8880712,5.25 10.75,5.25 C10.6119288,5.25 10.5,5.13807119 10.5,5 C10.5,4.86192881 10.6119288,4.75 10.75,4.75" id="Path"></path>
+                    <path d="M6,4.75 C6.13807119,4.75 6.25,4.86192881 6.25,5 C6.25,5.13807119 6.13807119,5.25 6,5.25 C5.86192881,5.25 5.75,5.13807119 5.75,5 C5.75,4.86192881 5.86192881,4.75 6,4.75" id="Path"></path>
+                    <circle id="Oval" cx="17.5" cy="11.5" r="6"></circle>
+                    <path d="M20.174,9.756 L17.269,13.629 C17.1382581,13.8026743 16.9387571,13.9112741 16.7219275,13.926803 C16.505098,13.9423319 16.2921571,13.8632703 16.138,13.71 L14.638,12.21" id="Path"></path>
+                    <path d="M9.5,9.5 L2.5,9.5 C1.3954305,9.5 0.5,8.6045695 0.5,7.5 L0.5,2.5 C0.5,1.3954305 1.3954305,0.5 2.5,0.5 L21.5,0.5 C22.6045695,0.5 23.5,1.3954305 23.5,2.5 L23.5,6" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
