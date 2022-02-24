@@ -13391,7 +13391,9 @@ li:hover {
   font-size: 10px;
 }
 
-.toggle-button:hover, .toggle-button:focus, .toggle-button:active {
+.toggle-button:hover,
+.toggle-button:focus,
+.toggle-button:active {
   background-color: #307fc1 !important;
   border-color: #307fc1 !important;
 }
@@ -13413,6 +13415,17 @@ li:hover {
 
 .font-13 {
   font-size: 13px;
+}
+
+.main-digit-group .digits-group input {
+  width: 50px;
+  height: 65px;
+}
+.main-digit-group .digits-group input:focus {
+  border: 1px solid #307fc1 !important;
+}
+.main-digit-group .digits-group input:focus-visible {
+  outline: 0;
 }
 
 @media (max-width: 576px) {
@@ -13459,6 +13472,12 @@ li:hover {
 @media (min-width: 992px) {
   .login-card-left {
     width: 247px;
+  }
+}
+@media (max-width: 450px) {
+  .digits-group input {
+    width: 30px !important;
+    height: 40px !important;
   }
 }
 

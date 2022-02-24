@@ -218,6 +218,7 @@ label {
     .dropdown-menu {
         top: -42% !important;
     }
+
     z-index: 10000;
 }
 
@@ -305,32 +306,54 @@ li:hover {
 
 //============================ End password-verificationcod.html page scss code====================
 //============================ start changepassword.html page scss code====================
-.toggle-button:hover, .toggle-button:focus, .toggle-button:active{
+.toggle-button:hover,
+.toggle-button:focus,
+.toggle-button:active {
     background-color: $primary-color !important;
     border-color: $primary-color !important;
 }
-.toggle-on-button:hover{
+
+.toggle-on-button:hover {
     border-color: $primary-color !important;
 }
+
 .font-10 {
     font-size: 10px;
 }
-.progress{
-    height:10px;
-    .progress-bar{
-        background-image: linear-gradient(to right, red , yellow) !important;
+
+.progress {
+    height: 10px;
+
+    .progress-bar {
+        background-image: linear-gradient(to right, red, yellow) !important;
     }
 }
-.font-13{
-    font-size:13px;
+
+.font-13 {
+    font-size: 13px;
 }
 
-// .toggle-button{
-//     span{
-//         padding:0 32px;
-//     }
-// }
 //============================ End changepassword.html page scss code====================
+//============================ Start passwordless-mobileauth-entercode.html page scss code====================
+.main-digit-group {
+    .digits-group {
+        input {
+            width: 50px;
+            height: 65px;
+
+            &:focus {
+                border: 1px solid $primary-color !important;
+            }
+
+            &:focus-visible {
+                outline: 0;
+            }
+        }
+
+    }
+}
+
+//============================ End passwordless-mobileauth-entercode.html page scss code====================
 
 
 //=========================MEDIA QUERY=================================
@@ -355,7 +378,7 @@ li:hover {
         background-image: url(../images/background-image.png);
         background-repeat: no-repeat;
         width: 100%;
-        min-height:950px;
+        min-height: 950px;
         background-size: cover;
     }
 
@@ -385,5 +408,15 @@ li:hover {
 @media (min-width: 992px) {
     .login-card-left {
         width: 247px;
+    }
+}
+
+//media quey for input feild of mobile auth code OTP
+@media (max-width: 450px) {
+    .digits-group {
+        input {
+            width: 30px !important;
+            height: 40px !important;
+        }
     }
 }
