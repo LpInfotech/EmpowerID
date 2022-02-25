@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="67px" viewBox="0 0 24 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>96B778FD-F5AE-4D26-AC6B-3E509487AB2E</title>
+    <g id="EID---Legacy-Login-/-Register" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="login-form---Passwordless---Biometrics" transform="translate(-705.000000, -455.000000)">
+            <g id="Group-Copy-2" transform="translate(658.000000, 403.000000)">
+                <g id="Group-2" transform="translate(26.000000, 26.000000)">
+                    <g id="flash-drive" transform="translate(33.000000, 59.500000) rotate(-180.000000) translate(-33.000000, -59.500000) translate(22.000000, 27.000000)">
+                        <path d="M18,10.0432633 L4,10.0432633 L4,2.00865266 C4,0.899304427 4.8954305,0 6,0 L16,0 C17.1045695,0 18,0.899304427 18,2.00865266 L18,10.0432633 Z" id="Path" stroke="#FFFFFF" stroke-width="1.92830655" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="8" y1="4.01730532" x2="8" y2="6.02595797" id="Path" stroke="#FFFFFF" stroke-width="1.92830655" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="14" y1="4.01730532" x2="14" y2="6.02595797" id="Path" stroke="#FFFFFF" stroke-width="1.92830655" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M20,10.0432633 C21.1045695,10.0432633 22,11.410206 22,13.0964153 L22,52.7873918 C21.9868208,59.5238779 18.4128075,64.9798809 14,65 L8,65 C3.58719254,64.9798809 0.0131792044,59.5238779 0,52.7873918 L0,13.0964153 C0,11.410206 0.8954305,10.0432633 2,10.0432633 L20,10.0432633 Z" id="Path" stroke="#FFFFFF" stroke-width="1.92830655" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <line x1="4" y1="14.0605686" x2="18" y2="14.0605686" id="Path" stroke="#FFFFFF" stroke-width="1.92830655" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M11.0396954,29.1879085 C12.2437335,29.1879085 13.2116007,30.1645476 13.2116007,31.3555541 C13.2116007,32.5704595 12.2436977,33.5470624 11.0396954,33.5470624 C9.85934249,33.5470624 8.89143947,32.5704234 8.89143947,31.3555541 C8.89143947,30.1645476 9.85934249,29.1879085 11.0396954,29.1879085 Z M11.0396954,26.9962917 C13.4240865,26.9962917 15.36,28.9496422 15.36,31.3556987 C15.36,33.3804206 13.9908107,35.0952877 12.1258451,35.5718205 L12.1258451,42.9559088 L14.5102362,42.9559088 L14.5102362,44.408936 L13.0702063,44.408936 L13.0702063,45.7904833 L14.5102362,45.7904833 L14.5102362,47.2435105 L9.95415485,47.2435105 L9.95415485,35.571712 C8.08918933,35.0953239 6.72,33.3802036 6.72,31.3555902 C6.72,28.9496783 8.65577021,26.9962917 11.0403046,26.9962917 L11.0396954,26.9962917 Z" id="key" fill="#FFFFFF" transform="translate(11.040000, 37.119901) rotate(180.000000) translate(-11.040000, -37.119901) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
