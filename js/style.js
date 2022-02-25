@@ -111,15 +111,18 @@ $(function () {
     // ============= End chanepassword.html page jquery=============
 
     // ============= Start passwordless-mobileauth-entercode.html page jquery=============
-    // $(".input-value-otp").on({
-    //     click: function () {
-    //         $(this).next(".input-value-otp").active;
-    //         $(this).removeClass("bg-gray-500");
-    //         $(this).next(".input-value-otp").addClass("bg-gray-500");
-    //         $(this).prev(".input-value-otp").removeClass("bg-gray-500");
-
-
-    //     }
-    // });
+    // mobile authentication cade OTP
+    $("#input-value-otp").focus();
+    $(".input-value-otp").on({
+        keyup: function () {
+            var a = $(this).next().val().length;
+            if (a == 1) {
+                //next input has length 1
+            } 
+            else {
+                $(this).next().focus();
+            }
+        }
+    });
     // ============= End passwordless-mobileauth-entercode.html page jquery=============
 });
