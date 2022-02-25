@@ -23,12 +23,14 @@
       <div class="login-form mx-auto bg-white border">
         <!-- ROW -->
         <div class="row g-0">
-          <!-- HEADER OF LOGIN-FORM -->
+          <!-- COL -->
           <div class="col-12">
+            <!-- HEADER OF LOGIN-FORM -->
             <div class="d-flex p-4 align-items-center border-bottom">
-              <a href="./password-verificationcode.html"><img src="./images/logo-image.svg" class="ps-1" alt="logo-image"></a>
+              <a href="./password-verificationcode.html"><img src="./images/logo-image.svg" class="ps-1"
+                  alt="logo-image"></a>
               <h5 class="ps-3 mb-0 me-auto text-secondary">Login</h5>
-              <!-- register link -->
+              <!-- REGISTER LINK-->
               <div class="position-relative">
                 <a href="#" class="text-decoration-none register-link" type="button" data-bs-toggle="dropdown"
                   data-bs-auto-close="outside" aria-expanded="false">
@@ -37,30 +39,34 @@
                 </a>
                 <ul class="dropdown-menu register-menu mt-3 shadow-lg">
                   <li class="py-2 px-3 d-flex align-items-center small register-list"><img src="./images/regi-img-1.svg"
-                      class="pe-3" alt="us-flag"><span>Consumer Self-Register</span><img src="./images/check-tick.svg"
-                      class="ms-auto d-none check-tick" alt="check"></li>
+                      class="pe-3" alt="us-flag"><a href="./registerpage-personalid.html"
+                      class="text-decoration-none text-blue-800">Consumer Self-Register</a><img
+                      src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
                   <li class="py-2 px-3 d-flex align-items-center small register-list"><img src="./images/regi-img-2.svg"
-                      class="pe-3" alt="us-flag"><span>Partner Self-Register</span><img src="./images/check-tick.svg"
-                      class="ms-auto d-none check-tick" alt="check"></li>
+                      class="pe-3" alt="us-flag"><a href="./registerpage-entercode.html"
+                      class="text-decoration-none text-blue-800">Partner Self-Register</a><img
+                      src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
                   <li class="py-2 px-3 d-flex align-items-center small register-list"><img src="./images/regi-img-3.svg"
-                      class="pe-3" alt="us-flag"><span>Supplier Company
-                      Registration</span><img src="./images/check-tick.svg" class="ms-auto d-none check-tick"
-                      alt="check"></li>
+                      class="pe-3" alt="us-flag"><a href="./registerpage-personalid.html"
+                      class="text-decoration-none text-blue-800">Supplier Company
+                      Registration</a><img src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check">
+                  </li>
                 </ul>
               </div>
+              <!-- REGISTER LINK-->
             </div>
+            <!-- /HEADER OF LOGIN-FORM -->
           </div>
-          <!-- /HEADER OF LOGIN-FORM -->
+          <!-- /COL -->
           <!-- BODY OF LOGIN-FORM -->
+          <!-- COL -->
           <div class="col-12">
             <div class="bg-light px-4 pt-4 border-bottom">
-              <!-- EMAIL INPUT -->
               <div class="mb-3 pt-3 px-sm-4 mx-sm-3 position-relative email-section">
-                 <div class="bg-primary position-absolute p-2 btn-group dropend lang-icon"><a
-                    href="#" class="d-flex" data-bs-toggle="dropdown" id="dropdownMenuClickableInside"
-                    data-bs-auto-close="outside" aria-expanded="false"><img src="./images/lang-icon.svg"
-                      class="lang-image" alt="lang-icon"></a> 
-                  <!-- language icon link -->
+                <div class="bg-primary position-absolute p-2 btn-group dropend lang-icon"><a href="#" class="d-flex"
+                    data-bs-toggle="dropdown" id="dropdownMenuClickableInside" data-bs-auto-close="outside"
+                    aria-expanded="false"><img src="./images/lang-icon.svg" class="lang-image" alt="lang-icon"></a>
+                  <!-- LANGUAGE LINK -->
                   <div class="dropdown-menu mx-4 shadow-lg">
                     <ul class="ps-0 mb-0">
                       <li class="py-2 px-3 d-flex align-items-center small list-able opacity-50"><img
@@ -97,8 +103,10 @@
                           src="./images/flag-11.svg" class="pe-3" alt="us-flag"><span>Català</span><img
                           src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
                     </ul>
-                  </div> 
-              </div>
+                  </div>
+                  <!-- /LANGUAGE LINK -->
+                </div>
+                <!-- EMAIL -->
                 <label for="exampleFormControlInput1" class="form-label small mb-3 ps-2 lh-1 text-gray-100">User Name or
                   Email Address</label>
                 <div class="input-group email-group mb-3">
@@ -107,17 +115,19 @@
                   <input type="email" class="form-control focus-control py-3 fs-5 ps-2 email-input border-start-0"
                     id="exampleFormControlInput1" placeholder="Email">
                 </div>
+                <!-- /EMAIL -->
               </div>
-              <!-- /EMAIL INPUT -->
-              <!-- PASSWORD INPUT -->
+              <!-- PASSWORD -->
               <div class="mb-3 px-sm-4 mx-sm-3">
                 <div class="row">
                   <div class="col-5 pe-1">
-                    <a href="./passwordpage.html" class="btn px-0 bg-gray-300 text-white password-input-button w-100 h-100 border-2">Enter
+                    <a href="./passwordpage.html"
+                      class="btn px-0 bg-gray-300 text-white password-input-button w-100 h-100 border-2">Enter
                       Password</a>
                   </div>
                   <div class="col-7 ps-1 pe-0 d-flex">
-                    <button class="password-id-input btn text-success border-success rounded-end ps-1 w-100"><img src="./images/touch-id-green.svg" class="pe-3" alt="touch-id-green">Passwordless login</button>
+                    <button class="password-id-input btn text-success border-success rounded-end ps-1 w-100"><img
+                        src="./images/touch-id-green.svg" class="pe-3" alt="touch-id-green">Passwordless login</button>
                     <div class="position-relative ps-1 d-flex align-items-center">
                       <a href="#" class="text-decoration-none register-link" type="button" data-bs-toggle="dropdown"
                         data-bs-auto-close="outside" aria-expanded="false"><img src="./images/down-arrow.svg"
@@ -125,26 +135,33 @@
                       </a>
                       <ul class="dropdown-menu password-menu shadow-lg">
                         <li class="py-2 px-3 d-flex align-items-center small register-list"><img
-                            src="./images/password-1.svg" class="pe-3" alt="us-flag"><a href="./changepassword.html" class="text-decoration-none text-dark">FIDO</a><img
-                            src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                            src="./images/password-1.svg" class="pe-3" alt="us-flag"><a href="./changepassword.html"
+                            class="text-decoration-none text-dark">FIDO</a><img src="./images/check-tick.svg"
+                            class="ms-auto d-none check-tick" alt="check"></li>
                         <li class="py-2 px-3 d-flex align-items-center small register-list"><img
-                            src="./images/password-2.svg" class="pe-3" alt="us-flag"><a href="./passwordless-registrationdevice.html" class="text-decoration-none text-dark">EmpowerID</a><img
-                            src="./images/check-tick.svg" class="ms-auto d-none check-tick" alt="check"></li>
+                            src="./images/password-2.svg" class="pe-3" alt="us-flag"><a
+                            href="./passwordless-registrationdevice.html"
+                            class="text-decoration-none text-dark">EmpowerID</a><img src="./images/check-tick.svg"
+                            class="ms-auto d-none check-tick" alt="check"></li>
                       </ul>
                     </div>
                   </div>
                 </div>
-                <!-- /PASSWORD INPUT -->
+                <!-- /PASSWORD -->
                 <!-- FORGOT PASSWORD -->
                 <p class="mt-4 small"><span class="text-gray-400">Forgot your:</span> <a
-                    href="./passwordless-credentials.html">Password</a><span class="text-style-2 text-gray-400">,</span> <a href="./login-as.html"> User Name </a>
-                  <span class="text-style-3 text-gray-400">or</span> <a href="./passwordless-authmethod.html">Token</a></p>
+                    href="./passwordless-credentials.html">Password</a><span class="text-style-2 text-gray-400">,</span>
+                  <a href="./login-as.html"> User Name </a>
+                  <span class="text-style-3 text-gray-400">or</span> <a href="./passwordless-authmethod.html">Token</a>
+                </p>
               </div>
+              <!-- HORIZONTAL LINE -->
               <div class="d-flex pt-3 pb-4">
                 <span class="horizontal-line bg-gray-500 align-self-center"></span>
                 <span class="px-3 text-gray-500">OR</span>
                 <span class="horizontal-line bg-gray-500 align-self-center"></span>
               </div>
+              <!-- /HORIZONTAL LINE -->
               <!-- LOGIN WITH OTHER ACCOUNT -->
               <p class="rubik-midium text-gray-100">Login using one of your other accounts</p>
               <div class="form-check d-flex align-items-center">
@@ -153,32 +170,40 @@
                   Preference
                 </label>
               </div>
+              <!-- LOGIN WITH OTHER ACCOUNT -->
               <!-- BUTTON GROUP -->
               <div class="row py-4">
                 <div class="col-12 d-sm-flex">
-                  <button class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-flex align-items-center"><img
+                  <button
+                    class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-flex align-items-center"><img
                       src="./images/gmail-logo.svg" class="pe-sm-3 pe-1" alt="gmail-logo"> Login with Google</button>
-                  <button class="btn bg-white border-gray-600 px-3 py-2 mb-3 mx-sm-0 mx-auto d-flex align-items-center"><img
+                  <button
+                    class="btn bg-white border-gray-600 px-3 py-2 mb-3 mx-sm-0 mx-auto d-flex align-items-center"><img
                       src="./images/facebook-logo.svg" class="pe-sm-3 pe-1" alt="facebook-logo"> Login with
                     Facebook</button>
                 </div>
                 <div class="col-12 d-sm-flex">
-                  <button class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-sm-flex d-none align-items-center"><img
+                  <button
+                    class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-sm-flex d-none align-items-center"><img
                       src="./images/microsoft-logo.svg" class="pe-sm-3 pe-1" alt="window-logo"> Login with
                     Windows</button>
-                  <button class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-sm-none d-flex align-items-center"><img
+                  <button
+                    class="btn bg-white border-gray-600 px-3 py-2 me-sm-3 mx-sm-0 mx-auto mb-3 d-sm-none d-flex align-items-center"><img
                       src="./images/microsoft-logo.svg" class="pe-sm-3 pe-1" alt="window-logo"> Login with
                     Windows Authentication</button>
-                  <button class="btn bg-white border-gray-600 px-3 py-2 mx-sm-0 mx-auto mb-3 d-sm-flex d-none align-items-center"><img
+                  <button
+                    class="btn bg-white border-gray-600 px-3 py-2 mx-sm-0 mx-auto mb-3 d-sm-flex d-none align-items-center"><img
                       src="./images/linked-logo.svg" class="pe-sm-3 pe-1" alt="linked-logo"> Login with
                     LinkedIn</button>
                 </div>
               </div>
-               <!-- /BUTTON GROUP -->
+              <!-- /BUTTON GROUP -->
             </div>
             <!-- /BODY OF LOGIN-FORM -->
           </div>
+          <!-- /COL -->
           <!-- FOOTER -->
+          <!-- COL -->
           <div class="col-12">
             <div class="text-primary bg-white py-3 text-center">
               <img src="./images/chat-icon.svg" class="pe-3" alt="chat-logo">
@@ -186,10 +211,12 @@
               <a href="./passwordless-registrationdevice.html" class="text-decoration-none ps-1">Chat Boot Help</a>
             </div>
           </div>
-            <!-- /FOOTER -->
+          <!-- /COL -->
+          <!-- /FOOTER -->
         </div>
-        <!-- /LOGIN FORM -->
+        <!-- /ROW -->
       </div>
+      <!-- /LOGIN FORM -->
   </section>
   <!-- /END LOGIN-FORM SECTION -->
   <!-- jquery file -->

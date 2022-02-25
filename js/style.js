@@ -125,4 +125,12 @@ $(function () {
         }
     });
     // ============= End passwordless-mobileauth-entercode.html page jquery=============
+    // ============= Start registerpage.html page jquery=============
+    $(".progressbar-list").on({
+click: function () {
+$(this).toggleClass("active").nextAll(".progressbar-list").removeClass("active");
+$(this).prevAll(".progressbar-list").addClass("active");
+}
+    });
+    // ============= End registerpagehtml page jquery=============
 });

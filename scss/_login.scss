@@ -144,6 +144,9 @@ label {
     border-color: $primary-color !important;
     box-shadow: none;
 }
+.form-select:focus{
+    box-shadow: none;
+}
 
 .password-id-input:focus {
     box-shadow: none;
@@ -352,14 +355,79 @@ li:hover {
 
     }
 }
+.biometric-imgae-section{
+    width: 153px; 
+    height: 153px;
+    .boimetric-sub-image-section{
+        width: 120px;
+         height: 120px;
+    }
+}
 
 //============================ End passwordless-mobileauth-entercode.html page scss code====================
+//============================ Start registerpage-personalid.html page scss code====================
+// #progressBar{
+    
+// }
+.progressbar {
+    li
+    {
+       &:before {
+        width: 16px;
+        height: 16px;
+        content: '';
+        line-height: 30px;
+        border: 4px solid $red-600-color;
+        background-color: $red-600-color;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        transition: all .8s;
+    }
+    &:after {
+        width: 100%;
+        height: 2px;
+        content: '';
+        position: absolute;
+        background-color: $red-600-color;
+        top: 7px;
+        left: -50%;
+        z-index: -1;
+        transition: all .8s;
+    }
+    &:first-child:after {
+        content: none;
+    }
+    &.active:before {
+        border-color: $primary-color;
+        background-color: $white-color;
+        transition: all .8s;
+    }
+    &.active:after {
+        background-color: $primary-color;
+        transition: all .8s;
+    }
+   }
+}
+.check-information{
+    width: 69%;
+    .form-check-input{
+        width: 28px;
+        height: 28px;
+    }
+}
+
+//============================ End registerpage-personalid.html page scss code====================
 
 
 //=========================MEDIA QUERY=================================
 @media (max-width:576px) {
     .lang-icon {
         transform: translate(75%, -17%) !important;
+    }
+    .check-information{
+        width: 100% !important;
     }
 }
 
